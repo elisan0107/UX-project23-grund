@@ -1,0 +1,25 @@
+body {
+    background-color: grey;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#poem {
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 0.5em;
+    /* don't show this until we have data in it */
+    visibility: hidden;
+}
+
+.remove {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
